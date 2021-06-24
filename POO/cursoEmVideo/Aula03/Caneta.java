@@ -3,7 +3,7 @@ package POO.cursoEmVideo.Aula03;
 public class Caneta {
     //atributos da Classe.
     public String modelo;
-    private String cor;
+    private final String cor;
     private float ponta;
     private boolean tampada = false;
 
