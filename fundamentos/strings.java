@@ -15,7 +15,7 @@ public class strings {
         System.out.println(mensagem);
 
 
-        var string = new String("Minha String");
+        var string = "Minha String";
 
         System.out.println("Char na posição: " + string.charAt(6));
         System.out.println("Quantidade:" + string.length());

@@ -5,10 +5,10 @@ public class Livro implements Publicacao {
     private String titulo, autor;
     private int totPaginas, pagAtual;
     private boolean aberto;
-    private Pessoa leitor;
+    private Pessoa2 leitor;
 
     //método construtor
-    public Livro(String titulo, String autor, int totPaginas, Pessoa leitor) {
+    public Livro(String titulo, String autor, int totPaginas, Pessoa2 leitor) {
         this.titulo = titulo;
         this.autor = autor;
         this.totPaginas = totPaginas;
@@ -43,7 +43,7 @@ public class Livro implements Publicacao {
         return totPaginas;
     }
 
-    public Pessoa getLeitor() {
+    public Pessoa2 getLeitor() {
         return leitor;
     }
 
@@ -65,7 +65,7 @@ public class Livro implements Publicacao {
         this.autor = autor;
     }
 
-    public void setLeitor(Pessoa leitor) {
+    public void setLeitor(Pessoa2 leitor) {
         this.leitor = leitor;
     }
 

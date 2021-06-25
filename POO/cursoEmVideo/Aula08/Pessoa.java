@@ -7,7 +7,7 @@ public class Pessoa {
     private int idade;
 
     public String toString() {
-        return "#### --- ##### \nPessoa!" +
+        return "#### --- ##### \nPessoa2!" +
                 "\nNome: " + nome +
                 "\nSexo: " + sexo +
                 "\nIdade:" + idade;
